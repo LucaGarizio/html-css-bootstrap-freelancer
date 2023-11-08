@@ -1,0 +1,19 @@
+[class*="col-"]{
+    border: 1px solid white;
+    min-height: 100px;
+}
+
+
+.row._ms-bg-green{
+    background-color: #1abc9c;
+}
+
+.col-12 img{
+    max-width: 200px;
+}
+
+
+.content-col img{
+    max-width: 100%;
+    border-radius: 1.5rem;
+}
