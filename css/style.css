@@ -4,7 +4,7 @@
 }
 
 
-.row._ms-bg-green{
+.ms-bg-green{
     background-color: #1abc9c;
 }
 
@@ -16,4 +16,18 @@
 .content-col img{
     max-width: 100%;
     border-radius: 1.5rem;
+}
+
+
+.ms-block{
+    border: 1px solid white;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 10%;
 }
