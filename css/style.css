@@ -1,8 +1,8 @@
 [class*="col-"]{
-    border: 1px solid white;
+    border: 1px solid black;
     min-height: 100px;
+    
 }
-
 
 .ms-bg-green{
     background-color: #1abc9c;
@@ -19,15 +19,38 @@
 }
 
 
-.ms-block{
+.border-left  {
+    width: 5rem;
+    border-bottom: 5px solid ;
+    border-radius: 1rem;
+}
+
+.border-right    {
+    width: 5rem;
+    border-bottom: 5px solid;
+    border-radius: 1rem;
+}
+
+.fa-star{
+    font-size: 2rem;
+    margin: 0 0.4rem;
+}
+
+.fa-facebook, .fa-google-plus-g, .fa-twitter, .fa-linkedin{
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+
+button{
+    /* width: 5rem; */
+    border-radius: 1rem;
     border: 1px solid white;
 }
 
-a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    width: 10%;
+.ms-bg-black{
+    background-color: #2c3e50;
+} 
+
+.ms-bg-light-black{
+    background-color: #3a546d;
 }
