@@ -34,6 +34,71 @@ Large	lg	≥992px
     border-radius: 1.5rem;
 }
 
+/* portfolio */
+/* overlay */
+.img-box-overlay {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    border-radius: 1.5rem;
+    transition: 1s ease;
+}
+
+.img-box-overlay:hover .overlay {
+    opacity: 0.5;
+    background-color: black;
+}
+
+.icon {
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-box-overlay :hover .icon{
+    animation: movement 3s linear;
+}
+
+@keyframes movement{
+    0%{
+        left: 5%; 
+        top: 90%;
+    }
+
+    25%{
+        left: 95%;
+        top: 90%;        
+    }
+
+    50%{
+        left: 95%;
+        top: 10%;
+    }
+
+    75%{
+        top: 10%;
+        left: 5%;
+    }
+
+    100%{
+        left: 50%;
+        top: 50%;        
+    }
+}
 
 /* about */
 #about a {
