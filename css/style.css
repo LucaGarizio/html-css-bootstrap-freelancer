@@ -9,17 +9,13 @@ Medium	md	≥768px
 Large	lg	≥992px
 */
 
-[class*="col-"]{
-    border: 1px solid black;
-}
-
 
 /* navbar */
 .ms-nav-bg{
     background-color: #2c3e50;
 }
 
-ms-nav{
+.ms-nav{
     min-height: 100px;
 }
 
@@ -29,40 +25,54 @@ ms-nav{
     background-color: #1abc9c;
 }
 
-.col-12 .jumbo img{
+.col-12 .jumbo img {
     max-width: 300px;
 }
 
-.content-col img{
+.content-col img {
     max-width: 100%;
     border-radius: 1.5rem;
 }
 
 
+/* about */
+#about a {
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#about button {
+    font-size: 1.3rem;
+}
+
 /* icons */
-.fa-star{
+.fa-star {
     font-size: 2rem;
+    margin: 0 1rem;
 }
 
 .border-left  {
-    width: 5rem;
+    width: 6rem;
     border-bottom: 5px solid ;
     border-radius: 1rem;
 }
 
-.border-right    {
-    width: 5rem;
+.border-right {
+    width: 6rem;
     border-bottom: 5px solid;
     border-radius: 1rem;
 }
 
-.fa-facebook, .fa-google-plus-g, .fa-twitter, .fa-linkedin{
-    font-size: 2rem;
-    margin: 0 0.5rem;
+.fa-facebook, .fa-google-plus-g,
+.fa-twitter, .fa-linkedin{
+    font-size: 30px;
+    height: 30px;
+    margin: 0 0.5rem;   
 }
 
-/* form input */
 
+/* form input */
 input[type="text"],
 input[type="email"],
 input[type="text"]{
@@ -81,6 +91,7 @@ textarea{
     width: 100%;
     margin-bottom: 1rem;
 }
+
 /* footer */
 .ms-bg-footer{
     background-color: #3a546d;
