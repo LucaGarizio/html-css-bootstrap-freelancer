@@ -15,26 +15,33 @@ Large	lg	≥992px
 
 
 /* navbar */
-
 .ms-nav-bg{
     background-color: #2c3e50;
 }
 
+ms-nav{
+    min-height: 100px;
+}
+
+
+/* jumbo */
 .ms-bg-green{
     background-color: #1abc9c;
 }
 
-.col-12 img{
-    max-width: 200px;
-}
-
-.content-col{
-
+.col-12 .jumbo img{
+    max-width: 300px;
 }
 
 .content-col img{
     max-width: 100%;
     border-radius: 1.5rem;
+}
+
+
+/* icons */
+.fa-star{
+    font-size: 2rem;
 }
 
 .border-left  {
@@ -49,33 +56,32 @@ Large	lg	≥992px
     border-radius: 1rem;
 }
 
-.ms-nav{
-    min-height: 100px;
-}
-
-.fa-star{
-    font-size: 2rem;
-    margin: 0 0.4rem;
-}
-
 .fa-facebook, .fa-google-plus-g, .fa-twitter, .fa-linkedin{
     font-size: 2rem;
     margin: 0 0.5rem;
 }
- 
 
+/* form input */
 
-.nav
-/* button{
-    /* width: 5rem;
-    border-radius: 1rem;
-    border: 1px solid white;
-} */
+input[type="text"],
+input[type="email"],
+input[type="text"]{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: 2rem;
+}
 
-/* .ms-bg-black{
-    background-color: #2c3e50;
-} 
-
-.ms-bg-light-black{
+textarea{
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+/* footer */
+.ms-bg-footer{
     background-color: #3a546d;
-} */
+}
