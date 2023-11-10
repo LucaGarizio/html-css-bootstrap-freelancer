@@ -9,6 +9,9 @@ Medium	md	≥768px
 Large	lg	≥992px
 */
 
+*{
+    scroll-behavior: smooth;
+}
 
 /* navbar */
 .ms-nav-bg{
@@ -19,14 +22,13 @@ Large	lg	≥992px
     min-height: 100px;
 }
 
-
 /* jumbo */
 .ms-bg-green{
     background-color: #1abc9c;
 }
 
 .col-12 .jumbo img {
-    max-width: 300px;
+    max-width: 20%;
 }
 
 .content-col img {
@@ -70,7 +72,7 @@ Large	lg	≥992px
 }
 
 .img-box-overlay :hover .icon{
-    animation: movement 3s linear;
+    animation: movement 1.5s linear;
 }
 
 @keyframes movement{
@@ -96,7 +98,7 @@ Large	lg	≥992px
 
     100%{
         left: 50%;
-        top: 50%;        
+        top: 50%;       
     }
 }
 
