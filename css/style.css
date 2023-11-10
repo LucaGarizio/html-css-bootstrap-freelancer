@@ -28,7 +28,7 @@ Large	lg	≥992px
 }
 
 .col-12 .jumbo img {
-    max-width: 20%;
+    max-width: 300px;
 }
 
 .content-col img {
